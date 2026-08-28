@@ -53,11 +53,14 @@
 body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
-    background-color: #000000;
-    /* you can delete the line below if you'd prefer to not use an image */
-    background-size: 65px;
     color: #FF0000;
+
     background-image: var(--body-bg-image);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom;
+    background-color: #000000;
 }
 
 * {
