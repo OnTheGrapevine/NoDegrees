@@ -8,11 +8,11 @@
  the images as variables */
 
 :root {
-    --header-image: url('https://sadhost.neocities.org/images/layouts/wp.jpeg');
-    --body-bg-image: url('https://sadhost.neocities.org/images/tiles/purplesky.gif');
+    --header-image: url('https://cdn.jsdelivr.net/gh/OnTheGrapevine/NoDegrees@main/CDN/HEADERby%3F.jpg');
+    --body-bg-image: url('https://cdn.jsdelivr.net/gh/OnTheGrapevine/NoDegrees@main/CDN/BGbyLily.jpeg');
 
     /* colors */
-    --content: #43256E;
+    --content: #000000;
 }
 
 /* if you have the URL of a font, you can set it below */
@@ -53,10 +53,10 @@
 body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
-    background-color: #08031A;
+    background-color: #000000;
     /* you can delete the line below if you'd prefer to not use an image */
     background-size: 65px;
-    color: #fceaff;
+    color: #FF0000;
     background-image: var(--body-bg-image);
 }
 
@@ -87,7 +87,7 @@ margin: 0 auto;
 /* the area below is for all links on your page
  EXCEPT for t*he navigation */
 #container a {
-color: #ED64F5;
+color: #FF0000;
 font-weight: bold;
 /* if you want to remove the underline
  y ou can ad*d a line below here that says:
@@ -96,7 +96,7 @@ font-weight: bold;
 
 #header {
 width: 100%;
-background-color: #5e4e8c;
+background-color: #000000;
 /* header color here! */
 height: 150px;
 /* this is only for a background image! */
@@ -109,7 +109,7 @@ background-size: 100%;
 /* navigation section!! */
 #navbar {
 height: 40px;
-background-color: #13092D;
+background-color: #000000;
 /* navbar color */
 width: 100%;
 }
@@ -128,7 +128,7 @@ padding-top: 10px;
 
 /* navigation links*/
 #navbar li a {
-color: #ED64F5;
+color: #FF0000;
 /* navbar text color */
 font-weight: 800;
 text-decoration: none;
@@ -137,7 +137,7 @@ text-decoration: none;
 
 /* navigation link when a link is hovered over */
 #navbar li a:hover {
-color: #a49cba;
+color: #FF0000;
 text-decoration: underline;
 }
 
@@ -149,7 +149,7 @@ display: flex;
  i f you want *to style them separately,
 create styles for #leftSidebar and #rightSidebar */
 aside {
-    background-color: #241445;
+    background-color: #000000;
     width: 200px;
     padding: 20px;
     font-size: smaller;
@@ -160,7 +160,7 @@ aside {
 /* this is the color of the main content area,
  between the *sidebars! */
 main {
-    background-color: #43256E;
+    background-color: #000000;
     flex: 1;
     padding: 20px;
     order: 2;
@@ -181,7 +181,7 @@ order: 3;
 }
 
 footer {
-    background-color: #13092D;
+    background-color: #000000;
     /* background color for footer */
     width: 100%;
     height: 40px;
@@ -193,7 +193,7 @@ footer {
 h1,
 h2,
 h3 {
-    color: #ED64F5;
+    color: #FF0000;
 }
 
 h1 {
@@ -202,13 +202,13 @@ h1 {
 
 strong {
     /* this styles bold text */
-    color: #ED64F5;
+    color: #FF0000;
 }
 
 /* this is just a cool box, it's the darker colored one */
 .box {
-    background-color: #13092D;
-    border: 1px solid #ED64F5;
+    background-color: #000000;
+    border: 1px solid #FF0000;
     padding: 10px;
 }
 
@@ -219,7 +219,7 @@ width: 100%;
 height: 30px;
 padding: 10px;
 font-size: smaller;
-background-color: #13092D;
+background-color: #000000;
 }
 
 
