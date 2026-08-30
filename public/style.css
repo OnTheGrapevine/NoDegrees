@@ -10,8 +10,8 @@
 :root {
     --header-image: url('https://cdn.jsdelivr.net/gh/OnTheGrapevine/NoDegrees@main/CDN/HEADERby%3F.jpg');
     --body-bg-image: url('https://cdn.jsdelivr.net/gh/OnTheGrapevine/NoDegrees@main/CDN/BGbyLily.jpeg');
-    --main-bg-image: url('https://cdn.jsdelivr.net/gh/OnTheGrapevine/NoDegrees@main/CDN/skulls.jpg');
-    --aside-bg-image:  url('https://cdn.jsdelivr.net/gh/OnTheGrapevine/NoDegrees@main/CDN/skulls1.gif');
+    --main-bg-image: url('https://cdn.jsdelivr.net/gh/OnTheGrapevine/NoDegrees@main/CDN/skulls1.gif');
+    --aside-bg-image:  url('https://cdn.jsdelivr.net/gh/OnTheGrapevine/NoDegrees@main/CDN/skulls.jpg');
 
     /* colors */
     --content: #000000;
@@ -94,6 +94,7 @@ margin: 150px 150px 150px 150px;
 #container a {
 color: #FF0000;
 font-weight: bold;
+order: 2;
 /* if you want to remove the underline
  y ou can ad*d a line below here that says:
  text-decoration:none; */
@@ -169,7 +170,7 @@ aside {
 main {
     flex: 1;
     padding: 20px;
-    order: 2;
+    order: 1;
 
     background-image: var(--main-bg-image);
     background-attachment: scroll;
