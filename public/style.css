@@ -10,6 +10,8 @@
 :root {
     --header-image: url('https://cdn.jsdelivr.net/gh/OnTheGrapevine/NoDegrees@main/CDN/HEADERby%3F.jpg');
     --body-bg-image: url('https://cdn.jsdelivr.net/gh/OnTheGrapevine/NoDegrees@main/CDN/BGbyLily.jpeg');
+    --main-bg-image: url('https://cdn.jsdelivr.net/gh/OnTheGrapevine/NoDegrees@main/CDN/skulls.jpg');
+    --aside-bg-image:  url('https://cdn.jsdelivr.net/gh/OnTheGrapevine/NoDegrees@main/CDN/skulls1.gif';
 
     /* colors */
     --content: #000000;
@@ -156,7 +158,6 @@ display: flex;
  i f you want *to style them separately,
 create styles for #leftSidebar and #rightSidebar */
 aside {
-    background-color: #000000;
     padding: 20px;
     font-size: smaller;
     /* this makes the sidebar text slightly smaller */
@@ -170,7 +171,7 @@ main {
     padding: 20px;
     order: 2;
 
-    background-image: url=('https://cdn.jsdelivr.net/gh/OnTheGrapevine/NoDegrees@main/CDN/skulls.jpg');
+    background-image: var(--main-bg-image);
     background-attachment: scroll;
     background-repeat: repeat;
     background-size: 50px;
@@ -183,12 +184,12 @@ main {
      tells the CSS the order in which to display them.
      left sidebar is 1, content is 2, and right sidebar is 3! */
 
-*/ #leftSidebar {
+#leftSidebar {
     order: 1;
     width: 200px;
     position: left;
 
-    background-image: url=('https://cdn.jsdelivr.net/gh/OnTheGrapevine/NoDegrees@main/CDN/skulls1.gif');
+    background-image: var(--aside-bg-image);
     background-attachment: scroll;
     background-repeat: repeat;
     background-size: 50px;
@@ -199,7 +200,7 @@ main {
 order: 3;
 width: 200px;
 
-background-image: url=('https://cdn.jsdelivr.net/gh/OnTheGrapevine/NoDegrees@main/CDN/skulls1.gif');
+background-image: var(--aside-bg-image);
 background-attachment: scroll;
 background-repeat: repeat;
 background-size: 50px;
