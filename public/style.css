@@ -83,7 +83,7 @@ max-width: 900px;
 /* this is the width of your layout! */
 /* if you change the above value, scroll to the bottom
  and change* the media query according to the comment! */
-margin: 0 auto;
+margin: 200 200 200 200;
 /* this centers the entire page */
 }
 
@@ -148,12 +148,15 @@ text-decoration: underline;
 display: flex;
 }
 
+#flexnav {
+display: flex;
+}
+
 /* this colors BOTH sidebars
  i f you want *to style them separately,
 create styles for #leftSidebar and #rightSidebar */
 aside {
     background-color: #000000;
-    width: 200px;
     padding: 20px;
     font-size: smaller;
     /* this makes the sidebar text slightly smaller */
@@ -177,10 +180,13 @@ main {
 
 */ #leftSidebar {
     order: 1;
+    width: 200px;
+    position: left;
 }
 
 #rightSidebar {
 order: 3;
+width: 200px;
 }
 
 footer {
