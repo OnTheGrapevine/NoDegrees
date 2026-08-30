@@ -81,7 +81,8 @@ body {
  t he other el*ements, you will need to move that div outside
  of the container */
 #container {
-max-width: 900px;
+max-width: 1240px;
+max-heaight: 1754px;
 order:2;
 /* this is the width of your layout! */
 /* if you change the above value, scroll to the bottom
@@ -188,6 +189,7 @@ main {
 #leftSidebar {
     order: 1;
     width: 200px;
+    max-height: 1754px;
     margin-left: 0;
 
     background-image: var(--aside-bg-image);
