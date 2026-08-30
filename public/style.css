@@ -83,7 +83,7 @@ max-width: 900px;
 /* this is the width of your layout! */
 /* if you change the above value, scroll to the bottom
  and change* the media query according to the comment! */
-margin: 200px 200px 200px 200px;
+margin: 150px 150px 150px 150px;
 /* this centers the entire page */
 }
 
@@ -166,10 +166,15 @@ aside {
 /* this is the color of the main content area,
  between the *sidebars! */
 main {
-    background-color: #000000;
     flex: 1;
     padding: 20px;
     order: 2;
+
+    background-image: url=('https://cdn.jsdelivr.net/gh/OnTheGrapevine/NoDegrees@main/CDN/skulls.jpg');
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-size: 50px;
+    background-color: #000000;
 }
 
 /* what's this "order" stuff about??
@@ -182,11 +187,23 @@ main {
     order: 1;
     width: 200px;
     position: left;
+
+    background-image: url=('https://cdn.jsdelivr.net/gh/OnTheGrapevine/NoDegrees@main/CDN/skulls1.gif');
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-size: 50px;
+    background-color: #000000;
 }
 
 #rightSidebar {
 order: 3;
 width: 200px;
+
+background-image: url=('https://cdn.jsdelivr.net/gh/OnTheGrapevine/NoDegrees@main/CDN/skulls1.gif');
+background-attachment: scroll;
+background-repeat: repeat;
+background-size: 50px;
+background-color: #000000;
 }
 
 footer {
@@ -255,11 +272,16 @@ and then subtrack it by 100. use this new number as the
      feel free to play around with the order!
      */
     main {
-        order: 1;
+        order: 2;
     }
 
     #leftSidebar {
-    order: 2;
+    order: 4;
+
+    }
+
+    container {
+        order: 1;
     }
 
     #rightSidebar {
