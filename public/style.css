@@ -82,6 +82,7 @@ body {
  of the container */
 #container {
 max-width: 900px;
+order:2;
 /* this is the width of your layout! */
 /* if you change the above value, scroll to the bottom
  and change* the media query according to the comment! */
@@ -187,7 +188,7 @@ main {
 #leftSidebar {
     order: 1;
     width: 200px;
-    position: left;
+    margin-left: 0;
 
     background-image: var(--aside-bg-image);
     background-attachment: scroll;
