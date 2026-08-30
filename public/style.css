@@ -83,7 +83,7 @@ max-width: 900px;
 /* this is the width of your layout! */
 /* if you change the above value, scroll to the bottom
  and change* the media query according to the comment! */
-margin: 200 200 200 200;
+margin: 200px 200px 200px 200px;
 /* this centers the entire page */
 }
 
