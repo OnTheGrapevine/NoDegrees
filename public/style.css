@@ -170,7 +170,7 @@ aside {
 main {
     flex: 1;
     padding: 20px;
-    order: 1;
+    order: 3;
 
     background-image: var(--main-bg-image);
     background-attachment: scroll;
@@ -198,7 +198,7 @@ main {
 }
 
 #rightSidebar {
-order: 3;
+order: 4;
 width: 200px;
 
 background-image: var(--aside-bg-image);
