@@ -267,7 +267,15 @@ and then subtrack it by 100. use this new number as the
     flex-wrap: wrap;
     }
 
+    #flexnav {
+        flex-wrap: wrap;
+    }
+
     aside {
+        width: 100%;
+    }
+
+    #leftsidebar {
         width: 100%;
     }
 
@@ -286,10 +294,13 @@ and then subtrack it by 100. use this new number as the
 
     container {
         order: 1;
+        margin: 0 0 0 0;
+        width: 100%;
     }
 
     #rightSidebar {
     order: 3;
+    width: 100%;
     }
 
     #navbar ul {
