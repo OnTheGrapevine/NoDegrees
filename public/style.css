@@ -52,6 +52,17 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: 'La Machine Company';
+    src: url('https://cdn.jsdelivr.net/gh/OnTheGrapevine/OnTheGrapevine@main/CDN/fonts/LaMachineCompany.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/OnTheGrapevine/OnTheGrapevine@main/CDN/fonts/LaMachineCompany.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/OnTheGrapevine/OnTheGrapevine@main/CDN/fonts/LaMachineCompany.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-size: large;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
@@ -115,6 +126,7 @@ background-color: #000000;
 
 /* navigation section!! */
 #navbar {
+font-family: 'La Machine Company', sans-serif;
 height: 40px;
 background-color: #000000;
 /* navbar color */
